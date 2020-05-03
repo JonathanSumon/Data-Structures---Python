@@ -11,17 +11,21 @@ class Stack():
         self.items.append(item) #Pushes the Element to the Stack
 
     def pop(self):
-        self.items.pop() #Pops the top-most Element of the Stack
+        return self.items.pop() #Pops the top-most Element of the Stack
 
     def viewStack(self):
         return self.items #Returns All the elements of a Stack
 
-    def isEmpty(self):
+    def isEmpty(self) -> bool:
         return self.items == []
     
     def viewTopElement(self):
         return self.items[-1]
 
+
+
+
+'''
 a = Stack() #Object Initialisation
 print(a.isEmpty()) #Returns True because the Stack is Empty
 a.push(1) #Pushes Element to the Stack
@@ -32,3 +36,4 @@ print (a.viewStack())
 a.pop()
 print (a.viewStack())
 print(a.isEmpty())
+'''
