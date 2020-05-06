@@ -47,7 +47,17 @@ Exponential Time : O(b^n)
 
 Factorial Time   : O(n!)
 
+**Big - O Properties**
 
+O(n+c) = O(n)
+
+O(nc)=O(n), c > 0
+
+**Big-O Examples**
+
+Constant Time
+
+Linear Time
 
 
 
