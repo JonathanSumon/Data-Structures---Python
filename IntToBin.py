@@ -1,10 +1,11 @@
 # Convert Integer to Binary Using A Stack
-#Example Application of a Stack
+# Example Application of a Stack
 
 
 from stack import Stack
 
 def convert(num:int):
+    num=floor(num)
     b=Stack()
     binNum=""
     while num > 0 :
