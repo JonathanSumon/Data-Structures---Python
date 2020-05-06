@@ -32,12 +32,19 @@ n=The Size of the input
 ## Given Below are the complexities ordered in from the Smallest to the largest
 
 Constant Time    : O(1)
+
 Logarithmic Time : O(Log(n))
+
 Linear Time      : O(n)
+
 Linearithmic Time: O(nLog(n))
+
 Quadric Time     : O(n^2)
+
 Cubic Time       : O(n^3)
+
 Exponential Time : O(b^n)
+
 Factorial Time   : O(n!)
 
 
